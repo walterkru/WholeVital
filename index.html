@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital - Gesundheit - Leben</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-image: url('background_graphic_for_a_website.png');
+          background-size: cover;
+          background-position: center;
+          color: #fff;
+          text-align: left;
+          background-attachment: fixed;
+      }
+      header {
+          background: rgba(0, 0, 0, 0.7);
+          padding: 20px;
+          display: flex;
+          align-items: center;
+      }
+      header img {
+          max-height: 50px;
+          margin-right: 20px;
+      }
+      main {
+          padding: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          margin: 20px;
+          border-radius: 10px;
+          max-width: 800px; /* Optionale Begrenzung der Breite */
+          margin-left: auto; /* Zentriert das Element horizontal */
+          margin-right: auto; /* Zentriert das Element horizontal */
+          text-align: left; /* Text linksbündig ausrichten */
+      }
+      .content-start {
+          margin-top: 1000px; /* Abstand von oben */
+          margin-left: 50px; /* Abstand von links */
+      }
+      footer {
+          background: rgba(0, 0, 0, 0.7);
+          padding: 10px;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+      }
+      button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+      }
+  </style>
+</head>
+<body>
+
+    <header>
+        <img src="Screenshot 2024-08-11 114619.png" alt="Logo"> <!-- Platzhalter für das Logo -->
+        <h1>Vital - Gesundheit - Leben</h1>
+    </header>
+
+    <main>
+      
+       <h2>Willkommen bei Whole Vital</h2>
+        <p>Ihre Gesundheit ist unser Anliegen</p>
+        <p>Bei "Whole Vital" stehen Sie und Ihr Wohlbefinden im Mittelpunkt. Wir bieten Ihnen umfassende Unterstützung in den Bereichen Fitness, Diäten, Gesundheit, glückliches Leben und gesunde Ernährung. Unser Ziel ist es, Ihnen zu helfen, ein vitales und gesundes Leben zu führen.</p>
+        
+        <h3>Unsere Angebote</h3>
+        <ul>
+            <li><strong>Fitness:</strong> Erreichen Sie Ihre Fitnessziele mit individuell abgestimmten Trainingsplänen und professioneller Beratung.</li>
+            <li><strong>Diäten:</strong> Finden Sie die passende Diät für Ihre Bedürfnisse und lassen Sie sich von unseren Experten begleiten.</li>
+            <li><strong>Gesundheit:</strong> Erhalten Sie Tipps und Ratschläge für ein gesundes Leben und wie Sie Krankheiten vorbeugen können.</li>
+            <li><strong>Glückliches Leben:</strong> Entdecken Sie Wege zu mehr Zufriedenheit und Lebensfreude durch positive Lebensgewohnheiten.</li>
+            <li><strong>Gesunde Ernährung:</strong> Lernen Sie, wie Sie sich ausgewogen und gesund ernähren können, um Ihre Vitalität zu steigern.</li>
+        </ul>
+
+        <h3>Interaktive Unterstützung</h3>
+        <p>Nutzen Sie unseren Chat-Service, um direkt mit unseren Experten in Kontakt zu treten. Egal ob Sie Fragen haben oder Produkte kaufen möchten, wir sind für Sie da, um Sie auf Ihrem Weg zu einem gesünderen Leben zu unterstützen.</p>
+
+        <button onclick="startChat()">Starten Sie noch heute!</button>
+      
+      <script type="module">
+          import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+          Chatbot.init({
+              chatflowid: "b81be07e-d77a-4462-b5b3-bf76474127f3",
+              apiHost: "https://wkru23-flowise.hf.space",
+          })
+      </script>
+
+    </main>
+
+    <footer>
+        <p>Beginnen Sie Ihre Reise zu einem vitalen, gesunden Leben mit uns. Kontaktieren Sie uns jetzt über den Chat und lassen Sie sich von unseren erfahrenen Beratern helfen.</p>
+    </footer>
+
+  <script>
+      // Einfaches JavaScript zur Simulation einer Chat-Interaktion
+      function startChat() {
+         
+         }
+  </script>
+      
+</body>
+</html>
